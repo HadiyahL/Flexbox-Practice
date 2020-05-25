@@ -41,6 +41,7 @@ html {
   justify-content: center;
   align-items: center;
   color: white;
+  margin-bottom: 5rem;
 }
 .jumbo-text {
   font-style: italic;
@@ -75,20 +76,67 @@ html {
   display: block;
 }
 .services {
+  background-color: #e3e3e3;
 }
 .intro {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(81, 24, 107);
+  /* position: relative; */
+
+  margin-bottom: 4rem;
+}
+.intro::before {
+  content: "";
+  width: 5rem;
+  height: 0.4rem;
+  background-color: rgb(24, 4, 34);
+  /* display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: -5rem;
+}
+.intro::after {
+  content: "";
+  width: 5rem;
+  height: 0.4rem;
+  background-color: rgb(24, 4, 34);
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 5rem;*/
 }
 .services-container {
+  width: 60%;
+  margin: 0 auto 3rem auto;
+
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .services-img {
+  max-width: 20rem;
+  height: 20rem;
+  margin-right: 4rem;
+  border-radius: 1rem;
 }
 .services-texts {
+  color: rgb(81, 24, 107);
 }
 .services-title {
+  font-size: 2.8rem;
+  padding-bottom: 0.5rem;
+  font-weight: normal;
 }
 .services-instructor {
+  font-size: 2.2rem;
+  color: #14735e;
+  padding-bottom: 0.5rem;
 }
 .services-location {
+  font-size: 1.9rem;
+  padding-bottom: 1.5rem;
 }
 .services-description {
+  font-size: 1.8rem;
+  font-weight: lighter;
 }
