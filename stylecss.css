@@ -76,35 +76,38 @@ html {
   display: block;
 }
 .services {
-  background-color: #e3e3e3;
+  /* background-color: #e3e3e3; */
 }
 .intro {
   font-size: 3rem;
   text-align: center;
   color: rgb(81, 24, 107);
-  /* position: relative; */
+  width: max-content;
+  margin: 0 auto;
+  position: relative;
+  /* padding-top: 2rem; */
 
   margin-bottom: 4rem;
 }
 .intro::before {
   content: "";
-  width: 5rem;
-  height: 0.4rem;
-  background-color: rgb(24, 4, 34);
-  /* display: inline-block;
+  width: 8rem;
+  height: 0.2rem;
+  background-color: rgb(153, 126, 167);
+  display: inline-block;
   position: absolute;
-  top: 50%;
-  left: -5rem;
+  top: 49%;
+  left: -9rem;
 }
 .intro::after {
   content: "";
-  width: 5rem;
-  height: 0.4rem;
-  background-color: rgb(24, 4, 34);
+  width: 8rem;
+  height: 0.25rem;
+  background-color: rgb(153, 126, 167);
   display: inline-block;
   position: absolute;
-  top: 50%;
-  right: 5rem;*/
+  top: 55%;
+  right: -9rem;
 }
 .services-container {
   width: 60%;
