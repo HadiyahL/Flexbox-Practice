@@ -22,6 +22,7 @@ html {
 .nav-link {
   padding: 1rem;
   list-style-type: none;
+  font-size: 2rem;
   /* flex: auto;
   text-align: center; */
 }
@@ -112,7 +113,6 @@ html {
 .services-container {
   width: 60%;
   margin: 0 auto 3rem auto;
-
   display: flex;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -125,22 +125,30 @@ html {
 .services-texts {
   color: rgb(81, 24, 107);
 }
+.text-img-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
 .services-title {
-  font-size: 2.8rem;
-  padding-bottom: 0.5rem;
+  font-size: 2.3rem;
+  /* padding-bottom: 0.3rem; */
   font-weight: normal;
 }
+.title-img {
+  padding-left: 1rem;
+  /* font-size: 4rem; */
+}
 .services-instructor {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #14735e;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.3rem;
 }
 .services-location {
   font-size: 1.9rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.1rem;
 }
 .services-description {
-  font-size: 1.8rem;
+  font-size: 1.65rem;
   font-weight: lighter;
 }
 
