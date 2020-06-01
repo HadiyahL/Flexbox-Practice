@@ -192,6 +192,10 @@ html {
 }
 .galimage {
   width: 16.6%;
+  filter: grayscale(100%);
+}
+.galimage:hover {
+  filter: grayscale(0);
 }
 
 /*==== MEDIA QUERIES ====*/
