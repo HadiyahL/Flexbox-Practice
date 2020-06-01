@@ -183,6 +183,17 @@ html {
   transition: all 1s;
 }
 
+.gallery {
+}
+.galimage-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galimage {
+  width: 16.6%;
+}
+
 /*==== MEDIA QUERIES ====*/
 @media screen and (max-width: 700px) {
   html {
