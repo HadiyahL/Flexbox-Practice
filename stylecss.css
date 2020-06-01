@@ -190,12 +190,19 @@ html {
   flex-wrap: wrap;
   justify-content: center;
 }
-.galimage {
+.galimage-box {
   width: 16.6%;
+  height: auto;
+  overflow: hidden;
+}
+.galimage {
+  width: 100%;
   filter: grayscale(100%);
+  transition: all 1s;
 }
 .galimage:hover {
   filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 /*==== MEDIA QUERIES ====*/
@@ -205,5 +212,8 @@ html {
   }
   .services-container {
     flex-direction: column;
+  }
+  .services-img {
+    margin-bottom: 2rem;
   }
 }
