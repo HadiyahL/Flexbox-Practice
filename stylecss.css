@@ -156,14 +156,17 @@ html {
 .about {
   padding: 7rem 0 3rem 0;
   background-color: #e3e3e3;
-  margin-bottom: 3rem;
+  margin-bottom: 8rem;
 }
-.about-text {
-  font-size: 1.7rem;
+
+/* GENERAL STYLE move up later */
+.section-text {
+  font-size: 1.9rem;
   text-align: center;
   line-height: 1.5;
-  margin-bottom: 2.5rem;
+  margin: 0 auto 2.5rem auto;
   color: rgb(81, 24, 107);
+  width: 75%;
 }
 .about-img-container {
   width: 75%;
